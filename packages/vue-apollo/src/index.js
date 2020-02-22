@@ -49,7 +49,6 @@ export function install (Vue, options) {
     })
   }
 
-
   installMixin(Vue, vueVersion)
 
   if (vueVersion === '2') {
